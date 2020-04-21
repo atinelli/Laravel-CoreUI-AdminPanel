@@ -10,6 +10,7 @@
     "require": {
         "php": "^7.2",
         "bugsnag/bugsnag-laravel": "^2.15",
+        "caouecs/laravel-lang": "~5.0",
         "doctrine/dbal": "^2.9",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.0",

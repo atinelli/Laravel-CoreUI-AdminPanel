@@ -1,10 +1,11 @@
 <?php
 
 return [
-    'date_format'         => 'Y-m-d',
+    'date_format'         => 'd-m-Y',
     'time_format'         => 'H:i:s',
-    'primary_language'    => 'en',
+    'primary_language'    => 'pt_BR',
     'available_languages' => [
         'en' => 'English',
+        'pt_BR' => 'Português(BR)',
     ],
 ];
