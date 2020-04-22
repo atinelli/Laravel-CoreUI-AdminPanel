@@ -10,6 +10,7 @@
                     {{ trans('global.dashboard') }}
                 </a>
             </li>
+            @can('user_management_access')
             <li class="nav-item nav-dropdown">
                 <a class="nav-link  nav-dropdown-toggle">
                     <i class="fas fa-users nav-icon">
@@ -44,12 +45,21 @@
                     </li>
                 </ul>
             </li>
+            @endcan
             <li class="nav-item">
                 <a href="{{ route("admin.products.index") }}" class="nav-link {{ request()->is('admin/products') || request()->is('admin/products/*') ? 'active' : '' }}">
                     <i class="fas fa-cogs nav-icon">
 
                     </i>
                     {{ trans('global.product.title') }}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="{{ route("admin.pacientes.index") }}" class="nav-link {{ request()->is('admin/pacientes') || request()->is('admin/pacientes/*') ? 'active' : '' }}">
+                    <i class="fas fa-cogs nav-icon">
+
+                    </i>
+                    {{ trans('global.paciente.title') }}
                 </a>
             </li>
             <li class="nav-item">

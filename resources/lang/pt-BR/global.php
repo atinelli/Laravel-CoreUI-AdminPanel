@@ -353,4 +353,28 @@ return [
             'deleted_at_helper'  => '',
         ],
     ],
+    'paciente'                              => [
+        'title'          => 'Pacientes',
+        'title_singular' => 'Paciente',
+        'fields'         => [
+            'id'                 => 'ID',
+            'id_helper'          => '',
+            'paciente'           => 'Paciente',
+            'paciente_helper'    => '',
+            'dt_nascimento'      => 'Data de nascimento',
+            'dt_nascimento_helper' => '',
+            'dt_internacao'      => 'Data de internação',
+            'dt_internacao_helper' => '',
+            'origem'             => 'Origem',
+            'origem_helper'      => '',
+            'status'             => 'Status',
+            'status_helper'       => '',
+            'created_at'         => 'Criado em',
+            'created_at_helper'  => '',
+            'updated_at'         => 'Atualizado em',
+            'updated_at_helper'  => '',
+            'deleted_at'         => 'Apagado em',
+            'deleted_at_helper'  => '',
+        ],
+    ]
 ];
